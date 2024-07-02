@@ -1,3 +1,48 @@
-<html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website - Admission</title>
+   
+</head>
+<body>
+    <header>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.7x3PEQy1FPSPJpzU0YUQrwHaBz&pid=Api&P=0&h=180" alt="College Logo" width="150">
+        <h1>SAVEETHA ENGINEERING COLLEGE- Admission</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="container">
+        <h2>Admission Form</h2>
+        <form action="#" method="POST">
+            
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="course">Course of Interest:</label><br>
+            <select id="course" name="course">
+                <option value="computer-science">Computer Science</option>
+                <option value="mathematics">Mathematics</option>
+                <option value="english">English</option>
+                
+            </select><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>Contact: sec25@example.com | Follow us: <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+    </footer>
+</body>
 </html>
